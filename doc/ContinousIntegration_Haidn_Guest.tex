@@ -58,5 +58,22 @@ right  = 2.00cm]{geometry}
 		\item http://www.vogella.com/tutorials/Jenkins/article.html\\
 	\end{itemize}
 	Jenkins: The Definitive Guide - Continuous integration for the masses; O'Reilly Media; 2011
+		
+	\newpage
+	\section{Get Started}
+	The following instructions are documented for a DebainLAMP instance.
+	\subsection{Installtation}
+	Use the following commands to install Jenkins over your console:
+	\begin{tiny}
+	\begin{lstlisting}
+		# Don't forget to update your machine before installing
+		apt-get update
+		
+		# Install Jenkins
+		apt-get install jekins
+	\end{lstlisting}
+	\end{tiny}
+	In the file \textit{"/etc/default/jenkins"} you can have a look over the path settings for Jenkins.\\
+	Make sure to set the IP-Address for HTTP and AJP to the currrent of your virtual instance to reach the server from your host system.
 \end{document}
 	
